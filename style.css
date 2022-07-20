@@ -102,6 +102,13 @@ main img {
     font-family: "Roboto Slab";
     text-align: left;
 }
+.footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(212, 206, 206);
+    color: white;
+    text-emphasis-color: black;
+}
 
 
 
