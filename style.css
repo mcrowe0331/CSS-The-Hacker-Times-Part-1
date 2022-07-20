@@ -3,7 +3,7 @@
 /* BODY */
 body {
     background: #eee;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-family: "Source Sans Pro";
     font-weight: 200;
 }
 a {
@@ -30,7 +30,7 @@ p {
     font-size: 0.8em;
 }
 header h1 {
-    font-family: 'Abril Fatface' , Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Abril Fatface";
     font-size: 2.5em;
     margin: 0;
     text-align: center;
@@ -40,8 +40,8 @@ header h1 {
 nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    padding: 5px 0;
     margin: 1em 0;
+    padding: 5px 0;
     position: sticky;
     top: 0;
     background: white;
@@ -61,11 +61,11 @@ nav a {
 
 /* FRONT PAGE ARTICLE */
 main h2 {
-    font-family:'Roboto Slab, Cambria, Cochin, Georgia, Times, 'Georgia, 'Times New Roman', Times, serif;
+    font-family:"Roboto Slab";
     margin-bottom: 0;
 }
 main h5 {
-    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Abril Fatface";
     color: #dd3232;
     margin-top: 0.5em;
 }
@@ -80,15 +80,15 @@ main img {
 }
 .more-articles section {
     display: inline-block;
-    width: ;
+    width: 30%;
     margin: 0 1em;
 }
 
 .more-articles img {
-    width: 70%;
+    width: 100%;
 }
 .more-articles h4 {
-    font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab";
     text-align: left;
 }
 
