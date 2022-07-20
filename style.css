@@ -42,7 +42,6 @@ nav {
     border-bottom: 1px solid #eee;
     margin: 1em 0;
     padding: 5px 0;
-    position: sticky;
     top: 0;
     background: white;
 }
@@ -74,22 +73,35 @@ main img {
 }
 /* smaller articles */
 .more-articles {
-    border-top: 1px solid #eee;
+    /* border-top: 1px solid #eee;
     margin-top: 1.5em;
-    text-align: center;
-}
-.more-articles section {
-    display: inline-block;
-    width: 30%;
-    margin: 0 1em;
+    text-align: center; */
+    display: inline-block; 
+    display: flex;
+    justify-content: space-around;
 }
 
-.more-articles img {
+.more-articles section {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.more-articles section  img {
+    /* display: inline-block;
+    width: 30%;
+    margin: 0 1em; */
+    box-sizing: border-box;
+
     width: 100%;
 }
+
+/* .more-articles img {
+    width: 100%;
+} */
 .more-articles h4 {
     font-family: "Roboto Slab";
     text-align: left;
 }
+
 
 
